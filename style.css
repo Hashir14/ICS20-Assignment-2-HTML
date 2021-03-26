@@ -4,7 +4,7 @@ body {
 
 .main-title {
   font-family: Brush Script MT, cursive;
-  font-size: 200%;
+  font-size: 250%;
   text-decoration: underline;
   text-align: center;
   color: aqua;
@@ -20,11 +20,14 @@ body {
 }
 
 .pics {
-  border: 8px solid blue;
+  border: 10px double blue;
   width: 70%;
   display: block;
   margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   margin-right: auto;
+  padding: 10px;
 }
 
 .body-text {
@@ -35,11 +38,12 @@ body {
   font-weight: bold;
   font-size: 140%;
   border: 15px solid white;
+  padding: 15px;
 }
 
 .sub-headings {
   color: aqua;
-  font-size: 180%;
+  font-size: 200%;
   text-align: center;
   text-decoration: underline;
 }
@@ -53,4 +57,22 @@ body {
   font-weight: bold;
   font-size: 140%;
   border: 15px solid white;
+  padding: 35px;
+}
+
+.buttons {
+  height: 50px;
+  width: 300px;
+  margin-left: 500px;
+  background-color: khaki;
+  color: brown;
+  font-size: 150%;
+  display: block;
+}
+
+.footer {
+  background-color: darkgray;
+  font-size: 150%;
+  text-align: center;
+  height: 40px;
 }
